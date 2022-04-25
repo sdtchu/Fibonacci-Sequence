@@ -1,4 +1,5 @@
 def is_num_even(x):
+    #checks if inputted number is even
     if x == 0:
         return True
     elif x == 1:
@@ -14,6 +15,7 @@ def my_fibonacci(x):
         return (my_fibonacci(x-1)) + (my_fibonacci(x-2))
 
 def main():
+    #prompts user to enter a number and goes through my_fibonacci() and is_num_even()
     x = int(input("Enter a number: "))
     print("The number", x, " is ", is_num_even(x))
     y = int(input("Enter a number: "))
